@@ -1,0 +1,2 @@
+SELECT nama.name AS Name , work.name AS Work, kategori.salary AS Kategori from nama, work, kategori
+where nama.id_work=work.id and nama.id_salary= kategori.id

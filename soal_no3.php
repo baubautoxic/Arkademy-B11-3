@@ -5,7 +5,7 @@
     $jmlStrfrasa = strlen($frasa);
 	$jlmkatafrasa = (substr_count($kata, $frasa)*3);
 
-        echo "Ditemukan ".$jlmkatafrasa;
+        echo "Ditemukan ".$jlmkatafrasa." kali";
 }
 kataxfrasa("banananana","nana");
 ?>
